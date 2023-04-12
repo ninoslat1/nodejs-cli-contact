@@ -24,3 +24,44 @@ npm install validator
 ```
 npm install chalk
 ```
+
+## Run The Test
+Run node index for help and command list section will appear
+```
+index add     Add new contact
+index list    Show all name and phone number in contact
+index detail  Show detail of contact based on name
+index delete  Delete contact based on name
+index update  Update the existing contact
+```
+
+#### Add
+```
+node index add --nama="John Doe" --email="johndoe@gmail.com" --nomor="08145678345"
+```
+
+The mandatory parameter is nama and nomor (the email parameter is optional) for execute the create command
+
+#### List
+```
+node index list
+```
+
+#### Detail and Delete
+```
+node index detail --nama="John"
+node index delete --nama="Doe"
+```
+
+For delete and show detail contact, just use nama parameter for execute read and delete the command
+
+#### Update
+```
+node index update
+```
+
+Same with add command, the mandatory parameter is nama and nomor (the email parameter is optional) for execute the update command
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
