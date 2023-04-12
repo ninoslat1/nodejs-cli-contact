@@ -10,12 +10,17 @@ git clone https://github.com/ninoslat1/nodejs-cli-contact.git
 ```
 After the clone process success, now you need to install some package manager
 #### Yargs
-Yargs is used for made some command in CLI
+[Yargs](https://www.npmjs.com/package/yargs) is used for made some command in CLI
 ```
 npm i yargs
 ```
 #### Validator
-ValidatorJS is used for validate email or number in contact app's data
+[ValidatorJS](https://www.npmjs.com/package/validator) is used for validate email or number in contact app's data
 ```
+npm install validator
 ```
 #### Chalk
+[Chalk](https://www.npmjs.com/package/chalk) is used for prettier the Node JS CLI
+```
+npm install chalk
+```
