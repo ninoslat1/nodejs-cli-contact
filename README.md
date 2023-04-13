@@ -57,7 +57,7 @@ For delete and show detail contact, just use nama parameter for execute read and
 
 #### Update
 ```
-node index update
+node index update --nama="John Doe" --email="johndoe@gmail.com" --nomor="08145678345"
 ```
 
 Same with add command, the mandatory parameter is nama and nomor (the email parameter is optional) for execute the update command
